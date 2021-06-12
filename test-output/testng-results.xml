@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-12T10:05:25 IST" name="Suite1" finished-at="2021-06-12T10:06:13 IST" duration-ms="48037">
+    <groups>
+    </groups>
+    <test started-at="2021-06-12T10:05:25 IST" name="TestDemoPackage" finished-at="2021-06-12T10:06:13 IST" duration-ms="48037">
+      <class name="Tests.SeleniumEasyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SeleniumEasyTest@73700b80]" started-at="2021-06-12T10:05:25 IST" name="setup" finished-at="2021-06-12T10:06:09 IST" duration-ms="43961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomeScreenTestCases()[pri:1, instance:Tests.SeleniumEasyTest@73700b80]" started-at="2021-06-12T10:06:09 IST" name="HomeScreenTestCases" finished-at="2021-06-12T10:06:11 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreenTestCases -->
+        <test-method signature="InputForm()[pri:2, instance:Tests.SeleniumEasyTest@73700b80]" started-at="2021-06-12T10:06:11 IST" name="InputForm" finished-at="2021-06-12T10:06:13 IST" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InputForm -->
+      </class> <!-- Tests.SeleniumEasyTest -->
+    </test> <!-- TestDemoPackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
