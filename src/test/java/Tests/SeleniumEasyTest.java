@@ -4,14 +4,14 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import Pages.HomePage;
 import Pages.InputForms;
 import Utility.config;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class SeleniumEasyTest {
 
@@ -25,11 +25,11 @@ public class SeleniumEasyTest {
 	public void setup() {
 		configobj = new config();
 		configobj.readConfigSetting();
-		//System.setProperty("webdriver.chrome.driver", configobj.GetChromePath());
-		//driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", configobj.GetChromePath());
+		driver = new ChromeDriver();
 		//WebDriverManager.chromedriver().setup();
-		WebDriverManager.firefoxdriver().setup();
-		driver = new FirefoxDriver();
+		//WebDriverManager.firefoxdriver().setup();
+		//driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
